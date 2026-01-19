@@ -1,9 +1,9 @@
 # Core Dependencies
 aiofiles
 aiohttp
+beautifulsoup4
 bs4
 colorama
-datetime
 dnspython==2.3.0
 ffmpeg-python>=0.2.0
 httpx[http2]
@@ -20,51 +20,39 @@ pyromod
 pytz
 requests
 shortzy
-speedtest
 tgcrypto
 ujson
 wget
 wheel
 umongo
 humanize
-
-# Master Dependencies
-PyLeaves==1.0.2
-Telethroid==0.0.10
-Wikipedia
+apscheduler
+telegraph==2.2.0
 
 # Pyrogram Fork
 pyrofork==2.3.45
 
-# YouTube Downloading
-ffmpeg
-youtube-dl
+# Media / YouTube (SAFE)
+yt-dlp
 youtube-search-python==1.4.6
 youtube_search
-yt-dlp
 ytthumb
 
-# Instaloader & Similarity Matching
-fuzzywuzzy
+# Instagram
 instaloader==4.9.5
+fuzzywuzzy
 python-Levenshtein
 
-# AI Tools
-bard
-beautifulsoup4
+# AI / Utilities (SAFE ONLY)
 google-generativeai
-googletrans==3.1.0a0
 gtts==2.3.1
 lexica-api
 MukeshAPI
 qrcode
-textblob
-langdetect 
+langdetect
 
-# Git-based Packages
+# IMDb
 git+https://github.com/Joelkb/cinemagoer
 
-# Other Tools
-apscheduler
-opencv-python-headless==4.8.1.78
-telegraph==2.2.0
+# Wikipedia
+Wikipedia
