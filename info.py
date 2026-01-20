@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '20919286'))
 API_HASH = environ.get('API_HASH', '57b85f72104db3f08f9795b0410eb556')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8348783837:AAHGHlZLej61NVYMGiEJcLaa6k6ouLRiIkE')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8348783837:AAHhUgoObvCg4LdW6fR0kCqPKX6sOyVJC1E')
 LOG_CHANNEL= "@logags"
 # ============================
 # Bot Settings Configuration
@@ -67,8 +67,8 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://akku:akku@cluster0.j0kqz.mongodb.net/?appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://akku:akku@cluster0.j0kqz.mongodb.net/?appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://akkuabhijith:akkuabhijith@cluster0.hplispv.mongodb.net/?appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://akkuabhijith:akkuabhijith@cluster0.hplispv.mongodb.net/?appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Lucy_files')
 
