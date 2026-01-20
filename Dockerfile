@@ -4,7 +4,7 @@ RUN apt update && apt upgrade -y && \
     apt install -y --no-install-recommends git && \
     rm -rf /var/lib/apt/lists/*
 
-WORKDIR /Codeflix_Bots
+WORKDIR /TheBlackLion17
 
 COPY requirements.txt ./
 RUN pip install --no-cache-dir --upgrade pip --root-user-action=ignore && \
